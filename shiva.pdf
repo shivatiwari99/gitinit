@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    struct node
+    {
+        int data;
+        struct node*link;
+    }
+    *temp,*head,*last;
+        int choice=1;
+        last=NULL;
+    cout<<"INSERT AT THE END OF THE LIST";
+    cin>>temp->data;
+    if(last=NULL){
+        head=last=temp;
+    }
+    else{
+        last->link=temp;
+        last=temp;
+    cout<<"continue";
+    cin>>choice;
+    }
+    last->link=NULL;
+    temp=head;
+    while(temp!=0)
+    {
+        cout<<temp->data;
+        temp=temp->link;
+    }
+return 0;
+}
